@@ -1,0 +1,14 @@
+node_modules/
+.env
+*.log
+coverage/
+.local/
+*.bak
+*.mdf
+*.ldf
+*.pfx
+*.pem
+*.key
+.env.*
+!.env.example
+.pnpm-store/

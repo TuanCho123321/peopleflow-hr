@@ -1,0 +1,19 @@
+{
+  "name": "peopleflow-hr",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node --env-file-if-exists=.env server/index.mjs",
+    "dev": "node --env-file-if-exists=.env --watch server/index.mjs",
+    "test": "node --test server/*.test.mjs",
+    "seed": "node --env-file-if-exists=.env server/seed.mjs"
+  },
+  "dependencies": {
+    "msnodesqlv8": "^6.2.2",
+    "mssql": "^12.0.0"
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}
